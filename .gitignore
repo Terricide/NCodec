@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/jcodec-0.2.5
+/jcodec-0/2
+/lib
+/obj
+/.vs/NCodec/v17/.suo
+/.vs
