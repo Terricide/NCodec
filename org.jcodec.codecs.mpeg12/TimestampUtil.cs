@@ -20,10 +20,9 @@ public class TimestampUtil : Object
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		[LineNumberTable(62)]
-		internal _1(string stream, long l)
+        internal _1(string stream, long l) : base(stream)
 		{
 			val_0024shift = l;
-			base._002Ector(stream);
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -45,10 +44,9 @@ public class TimestampUtil : Object
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		[LineNumberTable(69)]
-		internal _2(string stream, RationalLarge rl)
+		internal _2(string stream, RationalLarge rl) : base(stream)
 		{
 			val_0024scale = rl;
-			base._002Ector(stream);
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -70,10 +68,9 @@ public class TimestampUtil : Object
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		[LineNumberTable(76)]
-		internal _3(string stream, int i)
+		internal _3(string stream, int i) : base(stream)
 		{
 			val_0024precision = i;
-			base._002Ector(stream);
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

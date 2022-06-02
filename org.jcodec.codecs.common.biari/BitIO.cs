@@ -23,7 +23,6 @@ public class BitIO : Object
 		internal _1(byte[] barr)
 		{
 			val_0024bytes = barr;
-			base._002Ector();
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

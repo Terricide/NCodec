@@ -230,7 +230,7 @@ public class MetaBox : NodeBox
 			((obj == null) ? null : ((obj as Map) ?? throw new java.lang.IncompatibleClassChangeError())).put(key, value);
 			((List)children).add((object)dataBox);
 		}
-		HashSet.___003Cclinit_003E();
+		
 		object obj2 = data;
 		HashSet keySet = new HashSet(((obj2 == null) ? null : ((obj2 as Map) ?? throw new java.lang.IncompatibleClassChangeError())).keySet());
 		((Set)keySet).removeAll((Collection)map.keySet());

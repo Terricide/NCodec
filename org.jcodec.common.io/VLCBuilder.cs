@@ -18,11 +18,10 @@ public class VLCBuilder : Object
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		[LineNumberTable(55)]
-		internal _1(VLCBuilder this_00240, int[] codes, int[] codeSizes, VLCBuilder vlcb)
+		internal _1(VLCBuilder this_00240, int[] codes, int[] codeSizes, VLCBuilder vlcb) : base(codes, codeSizes)
 		{
 			this.this_00240 = this_00240;
-			val_0024self = vlcb;
-			base._002Ector(codes, codeSizes);
+			val_0024self = vlcb;		
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

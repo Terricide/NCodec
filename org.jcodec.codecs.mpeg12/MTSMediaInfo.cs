@@ -37,13 +37,12 @@ public class MTSMediaInfo : Object
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		[LineNumberTable(new byte[] { 159, 133, 129, 67, 159, 9 })]
-		internal _1(MTSMediaInfo this_00240, bool flush, List l1, Map m, List l2)
+		internal _1(MTSMediaInfo this_00240, bool flush, List l1, Map m, List l2) : base(flush)
 		{
 			this.this_00240 = this_00240;
 			val_0024pmtSections = l1;
 			val_0024pids = m;
 			val_0024result = l2;
-			base._002Ector(flush);
 			pmtPid = -1;
 		}
 

@@ -3344,175 +3344,175 @@ public class MKVType : java.lang.Object
 		___003C_003Echildren = new HashMap();
 		Map __003C_003Echildren = ___003C_003Echildren;
 		MKVType __003C_003EEBML = ___003C_003EEBML;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren.put(__003C_003EEBML, new HashSet(Arrays.asList(___003C_003EEBMLVersion, ___003C_003EEBMLReadVersion, ___003C_003EEBMLMaxIDLength, ___003C_003EEBMLMaxSizeLength, ___003C_003EDocType, ___003C_003EDocTypeVersion, ___003C_003EDocTypeReadVersion)));
 		Map __003C_003Echildren2 = ___003C_003Echildren;
 		MKVType __003C_003ESegment = ___003C_003ESegment;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren2.put(__003C_003ESegment, new HashSet(Arrays.asList(___003C_003ESeekHead, ___003C_003EInfo, ___003C_003ECluster, ___003C_003ETracks, ___003C_003ECues, ___003C_003EAttachments, ___003C_003EChapters, ___003C_003ETags)));
 		Map __003C_003Echildren3 = ___003C_003Echildren;
 		MKVType __003C_003ESeekHead = ___003C_003ESeekHead;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren3.put(__003C_003ESeekHead, new HashSet(Arrays.asList(___003C_003ESeek)));
 		Map __003C_003Echildren4 = ___003C_003Echildren;
 		MKVType __003C_003ESeek = ___003C_003ESeek;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren4.put(__003C_003ESeek, new HashSet(Arrays.asList(___003C_003ESeekID, ___003C_003ESeekPosition)));
 		Map __003C_003Echildren5 = ___003C_003Echildren;
 		MKVType __003C_003EInfo = ___003C_003EInfo;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren5.put(__003C_003EInfo, new HashSet(Arrays.asList(___003C_003ESegmentUID, ___003C_003ESegmentFilename, ___003C_003EPrevUID, ___003C_003EPrevFilename, ___003C_003ENextUID, ___003C_003ENextFilenam, ___003C_003ESegmentFamily, ___003C_003EChapterTranslate, ___003C_003ETimecodeScale, ___003C_003EDuration, ___003C_003EDateUTC, ___003C_003ETitle, ___003C_003EMuxingApp, ___003C_003EWritingApp)));
 		Map __003C_003Echildren6 = ___003C_003Echildren;
 		MKVType __003C_003EChapterTranslate = ___003C_003EChapterTranslate;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren6.put(__003C_003EChapterTranslate, new HashSet(Arrays.asList(___003C_003EChapterTranslateEditionUID, ___003C_003EChapterTranslateCodec, ___003C_003EChapterTranslateID)));
 		Map __003C_003Echildren7 = ___003C_003Echildren;
 		MKVType __003C_003ECluster = ___003C_003ECluster;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren7.put(__003C_003ECluster, new HashSet(Arrays.asList(___003C_003ETimecode, ___003C_003ESilentTracks, ___003C_003EPosition, ___003C_003EPrevSize, ___003C_003ESimpleBlock, ___003C_003EBlockGroup)));
 		Map __003C_003Echildren8 = ___003C_003Echildren;
 		MKVType __003C_003ESilentTracks = ___003C_003ESilentTracks;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren8.put(__003C_003ESilentTracks, new HashSet(Arrays.asList(___003C_003ESilentTrackNumber)));
 		Map __003C_003Echildren9 = ___003C_003Echildren;
 		MKVType __003C_003EBlockGroup = ___003C_003EBlockGroup;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren9.put(__003C_003EBlockGroup, new HashSet(Arrays.asList(___003C_003EBlock, ___003C_003EBlockAdditions, ___003C_003EBlockDuration, ___003C_003EReferencePriority, ___003C_003EReferenceBlock, ___003C_003ECodecState, ___003C_003ESlices)));
 		Map __003C_003Echildren10 = ___003C_003Echildren;
 		MKVType __003C_003EBlockAdditions = ___003C_003EBlockAdditions;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren10.put(__003C_003EBlockAdditions, new HashSet(Arrays.asList(___003C_003EBlockMore)));
 		Map __003C_003Echildren11 = ___003C_003Echildren;
 		MKVType __003C_003EBlockMore = ___003C_003EBlockMore;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren11.put(__003C_003EBlockMore, new HashSet(Arrays.asList(___003C_003EBlockAddID, ___003C_003EBlockAdditional)));
 		Map __003C_003Echildren12 = ___003C_003Echildren;
 		MKVType __003C_003ESlices = ___003C_003ESlices;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren12.put(__003C_003ESlices, new HashSet(Arrays.asList(___003C_003ETimeSlice)));
 		Map __003C_003Echildren13 = ___003C_003Echildren;
 		MKVType __003C_003ETimeSlice = ___003C_003ETimeSlice;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren13.put(__003C_003ETimeSlice, new HashSet(Arrays.asList(___003C_003ELaceNumber)));
 		Map __003C_003Echildren14 = ___003C_003Echildren;
 		MKVType __003C_003ETracks = ___003C_003ETracks;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren14.put(__003C_003ETracks, new HashSet(Arrays.asList(___003C_003ETrackEntry)));
 		Map __003C_003Echildren15 = ___003C_003Echildren;
 		MKVType __003C_003ETrackEntry = ___003C_003ETrackEntry;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren15.put(__003C_003ETrackEntry, new HashSet(Arrays.asList(___003C_003ETrackNumber, ___003C_003ETrackUID, ___003C_003ETrackType, ___003C_003ETrackType, ___003C_003EFlagDefault, ___003C_003EFlagForced, ___003C_003EFlagLacing, ___003C_003EMinCache, ___003C_003EMaxCache, ___003C_003EDefaultDuration, ___003C_003EMaxBlockAdditionID, ___003C_003EName, ___003C_003ELanguage, ___003C_003ECodecID, ___003C_003ECodecPrivate, ___003C_003ECodecName, ___003C_003EAttachmentLink, ___003C_003ECodecDecodeAll, ___003C_003ETrackOverlay, ___003C_003ETrackTranslate, ___003C_003EVideo, ___003C_003EAudio, ___003C_003ETrackOperation, ___003C_003EContentEncodings)));
 		Map __003C_003Echildren16 = ___003C_003Echildren;
 		MKVType __003C_003ETrackTranslate = ___003C_003ETrackTranslate;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren16.put(__003C_003ETrackTranslate, new HashSet(Arrays.asList(___003C_003ETrackTranslateEditionUID, ___003C_003ETrackTranslateCodec, ___003C_003ETrackTranslateTrackID)));
 		Map __003C_003Echildren17 = ___003C_003Echildren;
 		MKVType __003C_003EVideo = ___003C_003EVideo;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren17.put(__003C_003EVideo, new HashSet(Arrays.asList(___003C_003EFlagInterlaced, ___003C_003EStereoMode, ___003C_003EAlphaMode, ___003C_003EPixelWidth, ___003C_003EPixelHeight, ___003C_003EPixelCropBottom, ___003C_003EPixelCropTop, ___003C_003EPixelCropLeft, ___003C_003EPixelCropRight, ___003C_003EDisplayWidth, ___003C_003EDisplayHeight, ___003C_003EDisplayUnit, ___003C_003EAspectRatioType, ___003C_003EColourSpace)));
 		Map __003C_003Echildren18 = ___003C_003Echildren;
 		MKVType __003C_003EAudio = ___003C_003EAudio;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren18.put(__003C_003EAudio, new HashSet(Arrays.asList(___003C_003ESamplingFrequency, ___003C_003EOutputSamplingFrequency, ___003C_003EChannels, ___003C_003EBitDepth)));
 		Map __003C_003Echildren19 = ___003C_003Echildren;
 		MKVType __003C_003ETrackOperation = ___003C_003ETrackOperation;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren19.put(__003C_003ETrackOperation, new HashSet(Arrays.asList(___003C_003ETrackCombinePlanes, ___003C_003ETrackJoinBlocks)));
 		Map __003C_003Echildren20 = ___003C_003Echildren;
 		MKVType __003C_003ETrackCombinePlanes = ___003C_003ETrackCombinePlanes;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren20.put(__003C_003ETrackCombinePlanes, new HashSet(Arrays.asList(___003C_003ETrackPlane)));
 		Map __003C_003Echildren21 = ___003C_003Echildren;
 		MKVType __003C_003ETrackPlane = ___003C_003ETrackPlane;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren21.put(__003C_003ETrackPlane, new HashSet(Arrays.asList(___003C_003ETrackPlaneUID, ___003C_003ETrackPlaneType)));
 		Map __003C_003Echildren22 = ___003C_003Echildren;
 		MKVType __003C_003ETrackJoinBlocks = ___003C_003ETrackJoinBlocks;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren22.put(__003C_003ETrackJoinBlocks, new HashSet(Arrays.asList(___003C_003ETrackJoinUID)));
 		Map __003C_003Echildren23 = ___003C_003Echildren;
 		MKVType __003C_003EContentEncodings = ___003C_003EContentEncodings;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren23.put(__003C_003EContentEncodings, new HashSet(Arrays.asList(___003C_003EContentEncoding)));
 		Map __003C_003Echildren24 = ___003C_003Echildren;
 		MKVType __003C_003EContentEncoding = ___003C_003EContentEncoding;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren24.put(__003C_003EContentEncoding, new HashSet(Arrays.asList(___003C_003EContentEncodingOrder, ___003C_003EContentEncodingScope, ___003C_003EContentEncodingType, ___003C_003EContentCompression, ___003C_003EContentEncryption)));
 		Map __003C_003Echildren25 = ___003C_003Echildren;
 		MKVType __003C_003EContentCompression = ___003C_003EContentCompression;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren25.put(__003C_003EContentCompression, new HashSet(Arrays.asList(___003C_003EContentCompAlgo, ___003C_003EContentCompSettings)));
 		Map __003C_003Echildren26 = ___003C_003Echildren;
 		MKVType __003C_003EContentEncryption = ___003C_003EContentEncryption;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren26.put(__003C_003EContentEncryption, new HashSet(Arrays.asList(___003C_003EContentEncAlgo, ___003C_003EContentEncKeyID, ___003C_003EContentSignature, ___003C_003EContentSigKeyID, ___003C_003EContentSigAlgo, ___003C_003EContentSigHashAlgo)));
 		Map __003C_003Echildren27 = ___003C_003Echildren;
 		MKVType __003C_003ECues = ___003C_003ECues;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren27.put(__003C_003ECues, new HashSet(Arrays.asList(___003C_003ECuePoint)));
 		Map __003C_003Echildren28 = ___003C_003Echildren;
 		MKVType __003C_003ECuePoint = ___003C_003ECuePoint;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren28.put(__003C_003ECuePoint, new HashSet(Arrays.asList(___003C_003ECueTime, ___003C_003ECueTrackPositions)));
 		Map __003C_003Echildren29 = ___003C_003Echildren;
 		MKVType __003C_003ECueTrackPositions = ___003C_003ECueTrackPositions;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren29.put(__003C_003ECueTrackPositions, new HashSet(Arrays.asList(___003C_003ECueTrack, ___003C_003ECueClusterPosition, ___003C_003ECueRelativePosition, ___003C_003ECueDuration, ___003C_003ECueBlockNumber, ___003C_003ECueCodecState, ___003C_003ECueReference)));
 		Map __003C_003Echildren30 = ___003C_003Echildren;
 		MKVType __003C_003ECueReference = ___003C_003ECueReference;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren30.put(__003C_003ECueReference, new HashSet(Arrays.asList(___003C_003ECueRefTime)));
 		Map __003C_003Echildren31 = ___003C_003Echildren;
 		MKVType __003C_003EAttachments = ___003C_003EAttachments;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren31.put(__003C_003EAttachments, new HashSet(Arrays.asList(___003C_003EAttachedFile)));
 		Map __003C_003Echildren32 = ___003C_003Echildren;
 		MKVType __003C_003EAttachedFile = ___003C_003EAttachedFile;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren32.put(__003C_003EAttachedFile, new HashSet(Arrays.asList(___003C_003EFileDescription, ___003C_003EFileName, ___003C_003EFileMimeType, ___003C_003EFileData, ___003C_003EFileUID)));
 		Map __003C_003Echildren33 = ___003C_003Echildren;
 		MKVType __003C_003EChapters = ___003C_003EChapters;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren33.put(__003C_003EChapters, new HashSet(Arrays.asList(___003C_003EEditionEntry)));
 		Map __003C_003Echildren34 = ___003C_003Echildren;
 		MKVType __003C_003EEditionEntry = ___003C_003EEditionEntry;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren34.put(__003C_003EEditionEntry, new HashSet(Arrays.asList(___003C_003EEditionUID, ___003C_003EEditionFlagHidden, ___003C_003EEditionFlagDefault, ___003C_003EEditionFlagOrdered, ___003C_003EChapterAtom)));
 		Map __003C_003Echildren35 = ___003C_003Echildren;
 		MKVType __003C_003EChapterAtom = ___003C_003EChapterAtom;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren35.put(__003C_003EChapterAtom, new HashSet(Arrays.asList(___003C_003EChapterUID, ___003C_003EChapterStringUID, ___003C_003EChapterTimeStart, ___003C_003EChapterTimeEnd, ___003C_003EChapterFlagHidden, ___003C_003EChapterFlagEnabled, ___003C_003EChapterSegmentUID, ___003C_003EChapterSegmentEditionUID, ___003C_003EChapterPhysicalEquiv, ___003C_003EChapterTrack, ___003C_003EChapterDisplay, ___003C_003EChapProcess)));
 		Map __003C_003Echildren36 = ___003C_003Echildren;
 		MKVType __003C_003EChapterTrack = ___003C_003EChapterTrack;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren36.put(__003C_003EChapterTrack, new HashSet(Arrays.asList(___003C_003EChapterTrackNumber)));
 		Map __003C_003Echildren37 = ___003C_003Echildren;
 		MKVType __003C_003EChapterDisplay = ___003C_003EChapterDisplay;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren37.put(__003C_003EChapterDisplay, new HashSet(Arrays.asList(___003C_003EChapString, ___003C_003EChapLanguage, ___003C_003EChapCountry)));
 		Map __003C_003Echildren38 = ___003C_003Echildren;
 		MKVType __003C_003EChapProcess = ___003C_003EChapProcess;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren38.put(__003C_003EChapProcess, new HashSet(Arrays.asList(___003C_003EChapProcessCodecID, ___003C_003EChapProcessPrivate, ___003C_003EChapProcessCommand)));
 		Map __003C_003Echildren39 = ___003C_003Echildren;
 		MKVType __003C_003EChapProcessCommand = ___003C_003EChapProcessCommand;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren39.put(__003C_003EChapProcessCommand, new HashSet(Arrays.asList(___003C_003EChapProcessTime, ___003C_003EChapProcessData)));
 		Map __003C_003Echildren40 = ___003C_003Echildren;
 		MKVType __003C_003ETags = ___003C_003ETags;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren40.put(__003C_003ETags, new HashSet(Arrays.asList(___003C_003ETag)));
 		Map __003C_003Echildren41 = ___003C_003Echildren;
 		MKVType __003C_003ETag = ___003C_003ETag;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren41.put(__003C_003ETag, new HashSet(Arrays.asList(___003C_003ETargets, ___003C_003ESimpleTag)));
 		Map __003C_003Echildren42 = ___003C_003Echildren;
 		MKVType __003C_003ETargets = ___003C_003ETargets;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren42.put(__003C_003ETargets, new HashSet(Arrays.asList(___003C_003ETargetTypeValue, ___003C_003ETargetType, ___003C_003ETagTrackUID, ___003C_003ETagEditionUID, ___003C_003ETagChapterUID, ___003C_003ETagAttachmentUID)));
 		Map __003C_003Echildren43 = ___003C_003Echildren;
 		MKVType __003C_003ESimpleTag = ___003C_003ESimpleTag;
-		HashSet.___003Cclinit_003E();
+		
 		__003C_003Echildren43.put(__003C_003ESimpleTag, new HashSet(Arrays.asList(___003C_003ETagName, ___003C_003ETagLanguage, ___003C_003ETagDefault, ___003C_003ETagString, ___003C_003ETagBinary)));
 	}
 }

@@ -47,7 +47,7 @@ public class TimeUtil : Object
 	[LineNumberTable(25)]
 	public static Date macTimeToDate(int movSec)
 	{
-		Date.___003Cclinit_003E();
+		
 		Date result = new Date(fromMovTime(movSec));
 		
 		return result;

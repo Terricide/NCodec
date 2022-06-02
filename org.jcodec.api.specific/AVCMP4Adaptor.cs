@@ -82,7 +82,7 @@ public class AVCMP4Adaptor : Object, ContainerAdaptor
 	public virtual Picture decodeFrame(Packet packet, byte[][] data)
 	{
 		updateState(packet);
-		org.jcodec.codecs.h264.io.model.Frame pic = decoder.decodeFrame(packet.getData(), data);
+		var pic = decoder.decodeFrame(packet.getData(), data);
 		Rational pasp = meta.getVideoCodecMeta().getPixelAspectRatio();
 		if (pasp != null)
 		{

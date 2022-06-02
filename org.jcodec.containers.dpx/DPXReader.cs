@@ -202,7 +202,6 @@ public class DPXReader : Object
 	private static Date date(string dateString, string dateFormat)
 	{
 		//Discarded unreachable code: IL_001d
-		SimpleDateFormat.___003Cclinit_003E();
 		SimpleDateFormat format = new SimpleDateFormat(dateFormat, Locale.US);
 		ParseException ex;
 		try

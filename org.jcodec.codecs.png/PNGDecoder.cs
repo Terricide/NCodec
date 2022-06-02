@@ -94,7 +94,7 @@ public class PNGDecoder : VideoDecoder
 		internal TRNS(byte colorType)
 		{
 			int colorType2 = (sbyte)colorType;
-			base._002Ector();
+			
 			this.colorType = colorType2;
 		}
 

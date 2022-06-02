@@ -53,7 +53,7 @@ public class TapeTimecode : Object
 		int minute2 = (sbyte)minute;
 		int second2 = (sbyte)second;
 		int frame2 = (sbyte)frame;
-		base._002Ector();
+		
 		this.hour = hour;
 		this.minute = (byte)minute2;
 		this.second = (byte)second2;

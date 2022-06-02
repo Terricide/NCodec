@@ -146,46 +146,46 @@ public abstract class BaseIndexer : MPSUtils.PESReader
 			[HideFromJava(HideFromJavaFlags.Reflection | HideFromJavaFlags.StackWalk | HideFromJavaFlags.StackTrace)]
 			public virtual Comparator reversed()
 			{
-				return Comparator._003Cdefault_003Ereversed(this);
+				return Comparator.__DefaultMethods.reversed(this);
 			}
 
 			[HideFromJava(HideFromJavaFlags.Reflection | HideFromJavaFlags.StackWalk | HideFromJavaFlags.StackTrace)]
 			public virtual Comparator thenComparing(Comparator P_0)
 			{
-				return Comparator._003Cdefault_003EthenComparing(this, P_0);
+				return Comparator.__DefaultMethods.thenComparing(this, P_0);
 			}
 
 			[HideFromJava(HideFromJavaFlags.Reflection | HideFromJavaFlags.StackWalk | HideFromJavaFlags.StackTrace)]
 			public virtual Comparator thenComparing(Function P_0, Comparator P_1)
 			{
-				return Comparator._003Cdefault_003EthenComparing(this, P_0, P_1);
+				return Comparator.__DefaultMethods.thenComparing(this, P_0, P_1);
 			}
 
 			[HideFromJava(HideFromJavaFlags.Reflection | HideFromJavaFlags.StackWalk | HideFromJavaFlags.StackTrace)]
 			public virtual Comparator thenComparing(Function P_0)
 			{
-				return Comparator._003Cdefault_003EthenComparing(this, P_0);
+				return Comparator.__DefaultMethods.thenComparing(this, P_0);
 			}
 
 			[HideFromJava(HideFromJavaFlags.Reflection | HideFromJavaFlags.StackWalk | HideFromJavaFlags.StackTrace)]
 			public virtual Comparator thenComparingInt(ToIntFunction P_0)
 			{
-				return Comparator._003Cdefault_003EthenComparingInt(this, P_0);
+				return Comparator.__DefaultMethods.thenComparingInt(this, P_0);
 			}
 
 			[HideFromJava(HideFromJavaFlags.Reflection | HideFromJavaFlags.StackWalk | HideFromJavaFlags.StackTrace)]
 			public virtual Comparator thenComparingLong(ToLongFunction P_0)
 			{
-				return Comparator._003Cdefault_003EthenComparingLong(this, P_0);
+				return Comparator.__DefaultMethods.thenComparingLong(this, P_0);
 			}
 
 			[HideFromJava(HideFromJavaFlags.Reflection | HideFromJavaFlags.StackWalk | HideFromJavaFlags.StackTrace)]
 			public virtual Comparator thenComparingDouble(ToDoubleFunction P_0)
 			{
-				return Comparator._003Cdefault_003EthenComparingDouble(this, P_0);
+				return Comparator.__DefaultMethods.thenComparingDouble(this, P_0);
 			}
 
-			bool Comparator.Comparator_003A_003Aequals(object P_0)
+			bool Comparator.equals(object P_0)
 			{
 				return Object.instancehelper_equals(this, P_0);
 			}

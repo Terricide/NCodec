@@ -110,7 +110,7 @@ public class BitStream : Object, IBitStream
 	{
 		if (pos > (nint)buffer.LongLength - 4)
 		{
-			throw Throwable.___003Cunmap_003E(AACException.endOfStream());
+			throw AACException.endOfStream();
 		}
 		int i = (buffer[pos] << 24) | (buffer[pos + 1] << 16) | (buffer[pos + 2] << 8) | buffer[pos + 3];
 		if (!peek)

@@ -364,7 +364,7 @@ public class FLVReader : java.lang.Object
 		}
 		case 11:
 		{
-			Date.___003Cclinit_003E();
+			
 			Date date = new Date(ByteCodeHelper.d2l(input.getDouble()));
 			input.getShort();
 			return date;

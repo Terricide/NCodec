@@ -179,7 +179,6 @@ public class TestTool : java.lang.Object
 						decodedPics = new ArrayList();
 						seqNo = i;
 					}
-					FileOutputStream.___003Cclinit_003E();
 					raw = new FileChannelWrapper(new FileOutputStream(coded).getChannel());
 					((WritableByteChannel)raw).write(codecPrivate);
 				}

@@ -30,7 +30,7 @@ public class MPSMediaInfo : MPSUtils.PESReader
 		internal _1(MPSMediaInfo this_00240)
 		{
 			this.this_00240 = this_00240;
-			base._002Ector();
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

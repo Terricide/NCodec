@@ -8,6 +8,7 @@ using java.util;
 using org.jcodec.common.io;
 using org.jcodec.containers.mp4;
 using org.jcodec.containers.mp4.boxes;
+using RandomAccessFile = java.io.RandomAccessFile;
 
 namespace org.jcodec.movtool;
 
@@ -75,7 +76,6 @@ public class Undo : java.lang.Object
 		RandomAccessFile raf = null;
 		try
 		{
-			RandomAccess
 			raf = new RandomAccessFile(new File(fineName), "rw");
 			raf.seek(((MP4Util.Atom)versions.get(versions.size() - 2)).getOffset() + 4u);
 			raf.write(new byte[4] { 109, 111, 111, 118 });

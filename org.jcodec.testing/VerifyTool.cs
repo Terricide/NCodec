@@ -28,7 +28,6 @@ public class VerifyTool : java.lang.Object
 		internal _1(VerifyTool this_00240)
 		{
 			this.this_00240 = this_00240;
-			base._002Ector();
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -132,7 +131,7 @@ public class VerifyTool : java.lang.Object
 		Packet nextFrame;
 		while ((nextFrame = es.nextFrame()) != null)
 		{
-			org.jcodec.codecs.h264.io.model.Frame @out = dec.decodeFrame(nextFrame.getData(), buf.getData()).cropped();
+			var @out = dec.decodeFrame(nextFrame.getData(), buf.getData()).cropped();
 			Picture pic = @out.createCompatible();
 			pic.copyFrom(@out);
 			int lumaSize = pic.getWidth() * pic.getHeight();

@@ -25,7 +25,7 @@ public class UdtaBox : NodeBox
 		{
 			this.this_00240 = this_00240;
 			val_0024_factory = ibf;
-			base._002Ector();
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

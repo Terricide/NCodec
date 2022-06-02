@@ -50,7 +50,6 @@ public sealed class Preconditions : Object
 		CharSequence s = default(CharSequence);
 		int end;
 		int start;
-		object obj;
 		while (i < (nint)args.LongLength)
 		{
 			int placeholderStart = String.instancehelper_indexOf(template, "%s", templateStart);
@@ -62,7 +61,6 @@ public sealed class Preconditions : Object
 			int num = templateStart;
 			end = placeholderStart;
 			start = num;
-			obj = (s.___003Cref_003E = __003Cref_003E);
 			builder.append(s, start, end);
 			int num2 = i;
 			i++;
@@ -73,7 +71,6 @@ public sealed class Preconditions : Object
 		int num3 = templateStart;
 		end = String.instancehelper_length(template);
 		start = num3;
-		obj = (s.___003Cref_003E = __003Cref_003E2);
 		builder.append(s, start, end);
 		if (i < (nint)args.LongLength)
 		{

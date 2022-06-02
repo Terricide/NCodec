@@ -25,7 +25,7 @@ public class AutoPool : Object
 		{
 			this.this_00240 = this_00240;
 			val_0024res = l;
-			base._002Ector();
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -54,7 +54,7 @@ public class AutoPool : Object
 		internal _2(AutoPool this_00240)
 		{
 			this.this_00240 = this_00240;
-			base._002Ector();
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

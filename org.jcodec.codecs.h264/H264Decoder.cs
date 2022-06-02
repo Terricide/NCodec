@@ -648,7 +648,7 @@ public class H264Decoder : VideoDecoder
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
 	[LineNumberTable(100)]
-	public new virtual org.jcodec.codecs.h264.io.model.Frame decodeFrame(ByteBuffer data, byte[][] buffer)
+	public override Picture decodeFrame(ByteBuffer data, byte[][] buffer)
 	{
 		org.jcodec.codecs.h264.io.model.Frame result = decodeFrameFromNals(H264Utils.splitFrame(data), buffer);
 		return result;
@@ -816,15 +816,15 @@ public class H264Decoder : VideoDecoder
 		return result;
 	}
 
-	[MethodImpl(MethodImplOptions.NoInlining)]
-	[Modifiers(Modifiers.Public | Modifiers.Volatile | Modifiers.Synthetic)]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	[LineNumberTable(52)]
-	public virtual Picture _003Cbridge_003EdecodeFrame(ByteBuffer bb, byte[][] barr)
-	{
-		org.jcodec.codecs.h264.io.model.Frame result = decodeFrame(bb, barr);
-		return result;
-	}
+	//[MethodImpl(MethodImplOptions.NoInlining)]
+	//[Modifiers(Modifiers.Public | Modifiers.Volatile | Modifiers.Synthetic)]
+	//[EditorBrowsable(EditorBrowsableState.Never)]
+	//[LineNumberTable(52)]
+	//public virtual Picture _003Cbridge_003EdecodeFrame(ByteBuffer bb, byte[][] barr)
+	//{
+	//	org.jcodec.codecs.h264.io.model.Frame result = decodeFrame(bb, barr);
+	//	return result;
+	//}
 
 	[Modifiers(Modifiers.Static | Modifiers.Synthetic)]
 	[LineNumberTable(52)]

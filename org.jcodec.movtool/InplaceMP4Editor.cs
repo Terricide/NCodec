@@ -37,7 +37,7 @@ public class InplaceMP4Editor : Object
 		internal _1(InplaceMP4Editor this_00240)
 		{
 			this.this_00240 = this_00240;
-			base._002Ector();
+			
 		}
 
 		[MethodImpl(MethodImplOptions.NoInlining)]

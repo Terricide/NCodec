@@ -16,14 +16,14 @@ public class MTSRandomAccessDemuxer : Object
 		[SpecialName]
 		[InnerClass(null, (Modifiers)0)]
 		[EnclosingMethod(null, "newStream", "(Lorg.jcodec.common.io.SeekableByteChannel;Lorg.jcodec.containers.mps.index.MPSIndex$MPSStreamIndex;)Lorg.jcodec.containers.mps.index.MPSRandomAccessDemuxer$Stream;")]
-		internal class _1 : Stream
+		internal class _2 : Stream
 		{
 			[Modifiers(Modifiers.Final | Modifiers.Synthetic)]
 			internal MTSRandomAccessDemuxer._1 this_00241;
 
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			[LineNumberTable(41)]
-			internal _1(MTSRandomAccessDemuxer._1 this_00241, MPSRandomAccessDemuxer demuxer, MPSIndex.MPSStreamIndex streamIndex, SeekableByteChannel source) : base(demuxer, streamIndex, source)
+			internal _2(MTSRandomAccessDemuxer._1 this_00241, MPSRandomAccessDemuxer demuxer, MPSIndex.MPSStreamIndex streamIndex, SeekableByteChannel source) : base(demuxer, streamIndex, source)
 			{
 				this.this_00241 = this_00241;
 			}
@@ -97,7 +97,7 @@ public class MTSRandomAccessDemuxer : Object
 		[LineNumberTable(41)]
 		protected internal override Stream newStream(SeekableByteChannel ch, MPSIndex.MPSStreamIndex streamIndex)
 		{
-			_1 result = new _1(this, this, streamIndex, ch);
+			_2 result = new _2(this, this, streamIndex, ch);
 			return result;
 		}
 	}

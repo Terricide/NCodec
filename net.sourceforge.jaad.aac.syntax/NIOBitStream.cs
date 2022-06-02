@@ -29,7 +29,7 @@ public class NIOBitStream : Object, IBitStream
 			
 			return result;
 		}
-		throw Throwable.___003Cunmap_003E(AACException.endOfStream());
+		throw AACException.endOfStream();
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -99,7 +99,7 @@ public class NIOBitStream : Object, IBitStream
 			
 			return result;
 		}
-		throw Throwable.___003Cunmap_003E(AACException.endOfStream());
+		throw AACException.endOfStream();
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]

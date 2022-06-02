@@ -78,7 +78,7 @@ public class Decoder : java.lang.Object, SyntaxConstants
 		}
 		java.lang.Exception e = ex2;
 		buffer.setData(new byte[0], 0, 0, 0, 0);
-		throw Throwable.___003Cunmap_003E(AACException.wrap(e));
+		throw AACException.wrap(e);
 	}
 
 	[MethodImpl(MethodImplOptions.NoInlining)]
@@ -143,7 +143,7 @@ public class Decoder : java.lang.Object, SyntaxConstants
 		AACException e = ex;
 		if (!e.isEndOfStream())
 		{
-			throw Throwable.___003Cunmap_003E(e);
+			throw e;
 		}
 		Logger.warn("unexpected end of frame");
 	}
